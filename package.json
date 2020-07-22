@@ -1,0 +1,28 @@
+{
+  "name": "smalldemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.config.js --model development",
+    "bundle": "webpack --config ./webpack.config.js --model none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Jingay08@github.com/Jingay08/SmallDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jingay08/SmallDemo/issues"
+  },
+  "homepage": "https://github.com/Jingay08/SmallDemo#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
